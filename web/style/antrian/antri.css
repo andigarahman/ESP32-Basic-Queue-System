@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0,90,205);
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#judul {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(0,90,205);
+    border-radius: 8px;
+    font-size: large;
+    color: white;
+    position: absolute;
+    width: 6%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a:hover {
+    background-color: rgb(0, 153, 255);
+    transition: background-color 0.2s;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+    height: 100vh;
+}
+
+#counter {
+    background-color: white;
+    width: min(50%, 700px);
+    height: min(50%, 700px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(44, 44, 44);
+}
+
+#text-counter {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h2{
+    text-align: center;
+}
+
+.text:first-child {
+    justify-content: flex-end;
+}
+
+#nomor-antrian {
+    font-size: 3em;
+}
+
+
+

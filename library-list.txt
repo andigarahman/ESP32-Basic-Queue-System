@@ -1,0 +1,18 @@
+ESP Lib
+Adafruit Thermal Printer Library
+ArduinoJson
+AutoConnect
+PageBuilder
+WifiManager
+
+Python (for usb printer)
+pip install python-escpos pyusb
+
+Install LibUSB Drivers:
+Download Zadig
+Connect your printer via USB
+In Zadig:
+Options > List All Devices
+Select your thermal printer
+Install the libusb-win32  driver
+Click "Replace Driver"
