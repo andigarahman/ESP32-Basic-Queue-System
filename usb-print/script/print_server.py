@@ -57,7 +57,7 @@ def print_ticket(queue_number):
     content += b"\n\n"
     content += b"\x1b\x61\x01"  # Align center
     content += b"\x1b\x21\x30"  # Double width & height, font B
-    content += b"TIRTARAHARJA\n"
+    content += b"Line 1\n" #Edit line 1
     content += b"----------------\n"
     content += f"NO. ANTRIAN\n{queue_number}\n".encode()
     content += b"----------------\n"
